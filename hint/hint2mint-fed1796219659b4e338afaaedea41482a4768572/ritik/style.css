@@ -1,0 +1,165 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'jost';
+    	
+}
+
+.logo
+{
+	padding: 2;
+}
+nav{
+    width: 100%; height: 15vh;
+    background: rgb(48, 45, 45);
+    color: black; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+    position: fixed;
+    opacity: .8;
+    
+}
+nav .menu{
+    width: 40%; 
+    display: flex; justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none; color: rgb(168, 168, 168);
+    font-weight: bold;
+}
+h1{
+    color: rgba(10, 0, 2, 0.671);
+	padding: 10;
+	margin-top: 15;
+}
+p{
+	padding: 15;
+}
+
+#container {
+    min-height: 100%;
+    
+
+}
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+  
+}
+#footer {
+    background-color: rgba(0, 0, 0, 0.267);
+    position: relative;
+    height: 50px;
+    margin-top: -10px;
+    clear: both;
+    
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right:0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+padding-right:0;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 18px;}
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 50%;
+}
+
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+ 
+  
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body .bg{
+  background: url("https://media.northwesternmutual.com/images/1100x618/707-nm-how-are-financial-advisors-paid-538885745.jpg");
+  padding: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 24px;
+}
+h1.bg
+{
+  text-align: left;
+}
+body .about{
+  font-size: 24px;
+  padding: 100px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
