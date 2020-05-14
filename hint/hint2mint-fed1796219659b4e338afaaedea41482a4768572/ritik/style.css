@@ -96,7 +96,8 @@ ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
 /* Header/Blog Title */
-.header {
+.header
+{
   padding: 30px;
   font-size: 40px;
   text-align: center;
@@ -151,8 +152,11 @@ h1.bg
 }
 body .about{
   font-size: 24px;
-  padding: 100px;
+  padding: 70px;
+  margin-left: 250px;	
+ 
 }
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -162,4 +166,9 @@ body .about{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+.calander
+{	margin-top: 55px;
+	float:left;
+	width: 55px;
 }
